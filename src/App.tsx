@@ -12,12 +12,12 @@ import Home from "./pages/index";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         {/* // <Route index element={<Home />}></Route> */}
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
