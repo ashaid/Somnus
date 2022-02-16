@@ -1,5 +1,6 @@
 import * as React from "react";
 import logo from "../logo.svg";
+import ButtonAppBar from "../components/app-bar";
 
 export interface IHomeProps {}
 
@@ -15,6 +16,7 @@ export default class Home extends React.Component<IHomeProps, IHomeState> {
   public render() {
     return (
       <div className="App">
+        <ButtonAppBar />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>

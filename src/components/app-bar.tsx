@@ -5,7 +5,7 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
-import MenuIcon from "@mui/icons-material/Menu";
+import LocalHotelIcon from "@mui/icons-material/LocalHotel";
 
 export default function ButtonAppBar() {
   return (
@@ -16,15 +16,22 @@ export default function ButtonAppBar() {
             size="large"
             edge="start"
             color="inherit"
-            aria-label="menu"
+            aria-label="bed"
             sx={{ mr: 2 }}
           >
-            <MenuIcon />
+            <LocalHotelIcon />
           </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            News
+          <Typography
+            variant="h6"
+            component="div"
+            textAlign="left"
+            sx={{ flexGrow: 1 }}
+          >
+            Super Awesome Game Name
           </Typography>
-          <Button color="inherit">Login</Button>
+
+          <Button color="inherit">Blog</Button>
+          <Button color="inherit">About</Button>
         </Toolbar>
       </AppBar>
     </Box>
