@@ -25,13 +25,14 @@ export default function ButtonAppBar() {
             variant="h6"
             component="div"
             textAlign="left"
+            fontWeight="medium"
             sx={{ flexGrow: 1 }}
           >
-            Super Awesome Game Name
+            STUDIO
           </Typography>
 
-          <Button color="inherit">Blog</Button>
-          <Button color="inherit">About</Button>
+          <Button color="inherit">BLOG</Button>
+          <Button color="inherit">ABOUT</Button>
         </Toolbar>
       </AppBar>
     </Box>
