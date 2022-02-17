@@ -1,12 +1,17 @@
 {
   "files": {
     "main.css": "/art_4059/static/css/main.1899b611.css",
-    "main.js": "/art_4059/static/js/main.137b4dd5.js",
+    "main.js": "/art_4059/static/js/main.96e1764f.js",
     "static/js/947.7b0f2611.chunk.js": "/art_4059/static/js/947.7b0f2611.chunk.js",
+    "static/media/default-bg.png": "/art_4059/static/media/default-bg.1749dc9e49e403c430ab.png",
+    "static/media/sky.png": "/art_4059/static/media/sky.c265c045cc08b4a1162e.png",
+    "static/media/edge-background.png": "/art_4059/static/media/edge-background.4f32900ac28be0957cf5.png",
+    "static/media/kid.png": "/art_4059/static/media/kid.62e6c00a5a4917cf793e.png",
     "static/media/roboto-all-500-normal.woff": "/art_4059/static/media/roboto-all-500-normal.52cb737b682eb9661ee1.woff",
     "static/media/roboto-all-700-normal.woff": "/art_4059/static/media/roboto-all-700-normal.ef6d1d09b20b877fee4e.woff",
     "static/media/roboto-all-400-normal.woff": "/art_4059/static/media/roboto-all-400-normal.376ea5d93f71583052f6.woff",
     "static/media/roboto-all-300-normal.woff": "/art_4059/static/media/roboto-all-300-normal.8fc5f5f22c9951113696.woff",
+    "static/media/moon.png": "/art_4059/static/media/moon.a6e36728bea5ed9fc6eb.png",
     "static/media/roboto-latin-500-normal.woff2": "/art_4059/static/media/roboto-latin-500-normal.869888415d0b1a99ae5c.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/art_4059/static/media/roboto-latin-700-normal.0682ca7f74351d42bf73.woff2",
     "static/media/roboto-latin-300-normal.woff2": "/art_4059/static/media/roboto-latin-300-normal.0109a2ace896a506a0aa.woff2",
@@ -37,11 +42,11 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/art_4059/static/media/roboto-greek-ext-700-normal.9674bc0ae12c2551d9d1.woff2",
     "index.html": "/art_4059/index.html",
     "main.1899b611.css.map": "/art_4059/static/css/main.1899b611.css.map",
-    "main.137b4dd5.js.map": "/art_4059/static/js/main.137b4dd5.js.map",
+    "main.96e1764f.js.map": "/art_4059/static/js/main.96e1764f.js.map",
     "947.7b0f2611.chunk.js.map": "/art_4059/static/js/947.7b0f2611.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1899b611.css",
-    "static/js/main.137b4dd5.js"
+    "static/js/main.96e1764f.js"
   ]
 }
