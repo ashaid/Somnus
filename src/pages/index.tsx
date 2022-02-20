@@ -3,6 +3,7 @@ import ButtonAppBar from "../components/app-bar";
 import Zzz from "../components/zzz";
 import Banner from "../components/banner";
 import Background from "../components/background";
+import Video from "../components/video";
 
 export interface IHomeProps {}
 
@@ -21,9 +22,7 @@ export default class Home extends React.Component<IHomeProps, IHomeState> {
         <ButtonAppBar />
         <Banner />
         <Background />
-        {/* <header className="App-header"> */}
         {/* <Zzz /> */}
-        {/* </header> */}
       </div>
     );
   }

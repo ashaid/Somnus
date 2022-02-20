@@ -22,28 +22,37 @@ export default class GameButtons extends React.Component<IGameButtonsProps> {
         <ButtonGroup
           variant="contained"
           orientation="vertical"
-          sx={{ margin: "4vh" }}
+          sx={{ width: "18em" }}
           size="large"
           disableElevation
         >
-          <Button sx={{ margin: "1vh" }} startIcon={<DesktopWindowsIcon />}>
-            PC
+          <Button
+            sx={{ margin: "1vh", height: "3em" }}
+            startIcon={<DesktopWindowsIcon />}
+          >
+            WINDOWS
           </Button>
-          <Button sx={{ margin: "1vh" }} startIcon={<Playstation />}>
+          <Button
+            sx={{ margin: "1vh", height: "3em" }}
+            startIcon={<Playstation />}
+          >
             PLAYSTATION 5
           </Button>
         </ButtonGroup>
         <ButtonGroup
           variant="contained"
           orientation="vertical"
-          sx={{ margin: "4vh" }}
+          sx={{ width: "18em" }}
           size="large"
           disableElevation
         >
-          <Button sx={{ margin: "1vh" }} startIcon={<Nintendo />}>
+          <Button
+            sx={{ margin: "1vh", height: "3em" }}
+            startIcon={<Nintendo />}
+          >
             NINTENDO SWITCH
           </Button>
-          <Button sx={{ margin: "1vh" }} startIcon={<Xbox />}>
+          <Button sx={{ margin: "1vh", height: "3em" }} startIcon={<Xbox />}>
             XBOX S
           </Button>
         </ButtonGroup>
