@@ -6,6 +6,7 @@ specifiers:
   '@fontsource/roboto': ^4.5.3
   '@mui/icons-material': ^5.4.2
   '@mui/material': ^5.4.2
+  '@mui/system': ^5.4.2
   '@testing-library/jest-dom': ^5.16.2
   '@testing-library/react': ^12.1.2
   '@testing-library/user-event': ^13.5.0
@@ -30,6 +31,7 @@ dependencies:
   '@fontsource/roboto': 4.5.3
   '@mui/icons-material': 5.4.2_40fc9198f3297cec148e6ca7b8f715e2
   '@mui/material': 5.4.2_6226f8758b5b21b5515ad844c1caeb22
+  '@mui/system': 5.4.2_2af1fda251a25a998cef61bdffa74edc
   '@testing-library/jest-dom': 5.16.2
   '@testing-library/react': 12.1.2_react-dom@17.0.2+react@17.0.2
   '@testing-library/user-event': 13.5.0

@@ -21,24 +21,13 @@ export default class Banner extends React.Component<IBannerProps> {
               image: require("../media/banner/default-bg.png"),
               speed: 0,
             },
+
             {
               image: require("../media/banner/sky.png"),
               speed: -20,
             },
             {
-              image: require("../media/banner/edge-background.png"),
-              speed: -10,
-            },
-            {
-              image: require("../media/banner/kid.png"),
-              speed: -5,
-            },
-            {
-              image: require("../media/banner/moon.png"),
-              speed: -15,
-            },
-            {
-              speed: -30,
+              speed: -60,
               expanded: false,
               children: (
                 <div
@@ -53,18 +42,32 @@ export default class Banner extends React.Component<IBannerProps> {
                 >
                   <Typography
                     variant="h1"
-                    fontWeight="regular"
+                    fontWeight="bold"
+                    fontFamily="roboto"
                     component="div"
+                    color="white"
                     sx={{
                       textAlign: "center",
                       display: "flex",
-                      color: "white",
+                      // color: "",
                     }}
                   >
-                    SOMNOLENCE
+                    SOMNUS
                   </Typography>
                 </div>
               ),
+            },
+            {
+              image: require("../media/banner/edge-background.png"),
+              speed: -10,
+            },
+            {
+              image: require("../media/banner/kid.png"),
+              speed: -5,
+            },
+            {
+              image: require("../media/banner/moon.png"),
+              speed: -20,
             },
           ]}
           style={{
