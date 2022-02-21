@@ -4,6 +4,7 @@ import Image from "../media/backgrounds/layered-waves-haikei.svg";
 import Typography from "@mui/material/Typography";
 import GameButtons from "../components/game-buttons";
 import Video from "../components/video";
+import Waves from "../components/waves";
 
 export interface IBackgroundProps {}
 
@@ -14,9 +15,10 @@ export default class Background extends React.Component<IBackgroundProps> {
         flex={1}
         sx={{
           height: "100vh",
-          // margin: 0,
-          // padding: 0,
-          backgroundImage: `url(${Image})`,
+          // width: "300vh",
+          margin: 0,
+          padding: 0,
+          // backgroundImage: `url(${Image})`,
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
           backgroundSize: "cover",
@@ -26,21 +28,27 @@ export default class Background extends React.Component<IBackgroundProps> {
           flexDirection: "column",
         }}
       >
-        <Video />
-        <Typography
-          variant="h2"
-          fontWeight="bold"
-          fontFamily="roboto"
-          component="div"
-          color="white"
-          sx={{
-            textAlign: "center",
-            display: "flex",
-          }}
-        >
-          available now for $14.99
-        </Typography>
-        <GameButtons />
+        <Waves />
+        <Box>
+          <Video />
+          <Typography
+            variant="overline"
+            fontWeight="bold"
+            fontFamily="roboto"
+            component="div"
+            color="white"
+            sx={{
+              textAlign: "center",
+              justifyContent: "center",
+              display: "flex",
+              position: "relative",
+            }}
+          >
+            available now for $14.99
+          </Typography>
+
+          <GameButtons />
+        </Box>
       </Box>
     );
   }

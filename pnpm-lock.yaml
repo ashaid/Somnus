@@ -14,6 +14,7 @@ specifiers:
   '@types/node': ^16.11.22
   '@types/react': ^17.0.39
   '@types/react-dom': ^17.0.11
+  '@types/react-svg-morph': ^0.2.1
   gh-pages: ^3.2.3
   lottie-react: ^2.2.1
   react: ^17.0.2
@@ -22,6 +23,7 @@ specifiers:
   react-router-dom: ^6.2.1
   react-scripts: 5.0.0
   react-scroll-parallax: ^3.0.3
+  react-svg-morph: ^0.2.1
   typescript: ^4.5.5
   web-vitals: ^2.1.4
 
@@ -46,10 +48,12 @@ dependencies:
   react-router-dom: 6.2.1_react-dom@17.0.2+react@17.0.2
   react-scripts: 5.0.0_react@17.0.2+typescript@4.5.5
   react-scroll-parallax: 3.0.3_react-dom@17.0.2+react@17.0.2
+  react-svg-morph: 0.2.1_react-dom@17.0.2+react@17.0.2
   typescript: 4.5.5
   web-vitals: 2.1.4
 
 devDependencies:
+  '@types/react-svg-morph': 0.2.1
   gh-pages: 3.2.3
 
 packages:
@@ -2508,7 +2512,6 @@ packages:
 
   /@types/prop-types/15.7.4:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
-    dev: false
 
   /@types/q/1.5.5:
     resolution: {integrity: sha512-L28j2FcJfSZOnL1WBjDYp2vUHCeIFlyYI/53EwD/rKUBQ7MtUUfbQWiyKJGpcnv4/WgrhWsFKrcPstcAt/J0tQ==}
@@ -2534,6 +2537,12 @@ packages:
       '@types/react': 17.0.39
     dev: false
 
+  /@types/react-svg-morph/0.2.1:
+    resolution: {integrity: sha512-Kvd24umGjZV7+2LNfB6RFmyu4ZPVWI1ktSH3tl1H6btHnZIQnjy+yU8LfyRFB2UBh0EI9zxrqlkWD4Mjp5dfjQ==}
+    dependencies:
+      '@types/react': 17.0.39
+    dev: true
+
   /@types/react-transition-group/4.4.4:
     resolution: {integrity: sha512-7gAPz7anVK5xzbeQW9wFBDg7G++aPLAFY0QaSMOou9rJZpbuI58WAuJrgu+qR92l61grlnCUe7AFX8KGahAgug==}
     dependencies:
@@ -2546,7 +2555,6 @@ packages:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
       csstype: 3.0.10
-    dev: false
 
   /@types/resolve/1.17.1:
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
@@ -2560,7 +2568,6 @@ packages:
 
   /@types/scheduler/0.16.2:
     resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
-    dev: false
 
   /@types/serve-index/1.9.1:
     resolution: {integrity: sha512-d/Hs3nWDxNL2xAczmOVZNj92YZCS6RGxfBPjKzuu/XirCgXdpKEb88dYNbrYGint6IVWLNP+yonwVAuRC0T2Dg==}
@@ -4076,7 +4083,6 @@ packages:
 
   /csstype/3.0.10:
     resolution: {integrity: sha512-2u44ZG2OcNUO9HDp/Jl8C07x6pU/eTR3ncV91SiK3dhG9TWvRVsCoJw14Ckx5DgWkzGA3waZWO3d7pgqpUI/XA==}
-    dev: false
 
   /damerau-levenshtein/1.0.8:
     resolution: {integrity: sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==}
@@ -8205,6 +8211,14 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
+  /react-render-to-json/0.0.6_react@17.0.2:
+    resolution: {integrity: sha512-fMfqnDjO2HHeg3k4dVierDxVQUymaTfWlsL9pfkSNHpXhGey1J/T8CDsVhN+xjswFYSM30zL0dLBiGHqGoAWWg==}
+    peerDependencies:
+      react: ^0.14.0 || ^15.0.0 || ^16.0.0
+    dependencies:
+      react: 17.0.2
+    dev: false
+
   /react-router-dom/6.2.1_react-dom@17.0.2+react@17.0.2:
     resolution: {integrity: sha512-I6Zax+/TH/cZMDpj3/4Fl2eaNdcvoxxHoH1tYOREsQ22OKDYofGebrNm6CTPUcvLvZm63NL/vzCYdjf9CUhqmA==}
     peerDependencies:
@@ -8331,6 +8345,19 @@ packages:
       parallax-controller: 1.3.3
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
+    dev: false
+
+  /react-svg-morph/0.2.1_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-Z4TBpO0tXbfnligZiEQlHwU+XRe0HkJjQAmrNEENFgAlF58dKN5Pit5NOWp3JqYB7PmZ3tnnTul7T/cW9dH14g==}
+    peerDependencies:
+      react: ^0.14.0 || ^15.0.0 || ^16.0.0
+      react-dom: ^0.14.0 || ^15.0.0 || ^16.0.0
+    dependencies:
+      prop-types: 15.8.1
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+      react-render-to-json: 0.0.6_react@17.0.2
+      svgpath: 2.5.0
     dev: false
 
   /react-transition-group/4.4.2_react-dom@17.0.2+react@17.0.2:
@@ -9164,6 +9191,10 @@ packages:
       csso: 4.2.0
       picocolors: 1.0.0
       stable: 0.1.8
+    dev: false
+
+  /svgpath/2.5.0:
+    resolution: {integrity: sha512-o/vohwqjUO9nDAh4rcjE3KaW/v//At8UJu2LJMybXidf5QLQLVA4bxH0//4YCsr+1H4Gw1Wi/Jc62ynzSBYidw==}
     dev: false
 
   /symbol-tree/3.2.4:

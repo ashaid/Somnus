@@ -17,6 +17,7 @@ export default class GameButtons extends React.Component<IGameButtonsProps> {
           display: "flex",
           flexDirection: "row",
           alignItems: "center",
+          justifyContent: "center",
         }}
       >
         <ButtonGroup

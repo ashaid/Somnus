@@ -24,6 +24,7 @@
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
     "react-scroll-parallax": "^3.0.3",
+    "react-svg-morph": "^0.2.1",
     "typescript": "^4.5.5",
     "web-vitals": "^2.1.4"
   },
@@ -54,6 +55,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-svg-morph": "^0.2.1",
     "gh-pages": "^3.2.3"
   }
 }

@@ -12,6 +12,8 @@ export default class Video extends React.Component<IVideoProps> {
         sx={{
           display: "flex",
           alignItems: "center",
+          justifyContent: "center",
+          position: "relative",
         }}
       >
         {/* <iframe src="https://www.youtube.com/embed/6ML9ceuSBrY"></iframe> */}
