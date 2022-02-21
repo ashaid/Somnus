@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/art_4059/static/css/main.1899b611.css",
-    "main.js": "/art_4059/static/js/main.2c67a3a2.js",
+    "main.js": "/art_4059/static/js/main.83738cad.js",
     "static/js/947.7b0f2611.chunk.js": "/art_4059/static/js/947.7b0f2611.chunk.js",
     "static/media/default-bg.png": "/art_4059/static/media/default-bg.1749dc9e49e403c430ab.png",
     "static/media/sky.png": "/art_4059/static/media/sky.c265c045cc08b4a1162e.png",
@@ -36,7 +36,6 @@
     "static/media/roboto-vietnamese-400-normal.woff2": "/art_4059/static/media/roboto-vietnamese-400-normal.c0bec65d01f776c00c91.woff2",
     "static/media/roboto-vietnamese-700-normal.woff2": "/art_4059/static/media/roboto-vietnamese-700-normal.3096f18acebc3f07020d.woff2",
     "static/media/roboto-vietnamese-300-normal.woff2": "/art_4059/static/media/roboto-vietnamese-300-normal.af9afdc10c93e4118e90.woff2",
-    "static/media/layered-waves-haikei.svg": "/art_4059/static/media/layered-waves-haikei.2d3cf5de1145fbec218edc9d4d65b325.svg",
     "static/media/icons8-playstation.svg": "/art_4059/static/media/icons8-playstation.25b0c1832fbb05f5d156001e3867c44b.svg",
     "static/media/icons8-xbox.svg": "/art_4059/static/media/icons8-xbox.ba3600ffbbe2200dff5b852ea10393d0.svg",
     "static/media/roboto-greek-ext-500-normal.woff2": "/art_4059/static/media/roboto-greek-ext-500-normal.9c0d384f31e2c914edf3.woff2",
@@ -46,11 +45,11 @@
     "static/media/nintendo-switch-svgrepo-com.svg": "/art_4059/static/media/nintendo-switch-svgrepo-com.5ec2f4a3720cca10e52aed1e5c9f9067.svg",
     "index.html": "/art_4059/index.html",
     "main.1899b611.css.map": "/art_4059/static/css/main.1899b611.css.map",
-    "main.2c67a3a2.js.map": "/art_4059/static/js/main.2c67a3a2.js.map",
+    "main.83738cad.js.map": "/art_4059/static/js/main.83738cad.js.map",
     "947.7b0f2611.chunk.js.map": "/art_4059/static/js/947.7b0f2611.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1899b611.css",
-    "static/js/main.2c67a3a2.js"
+    "static/js/main.83738cad.js"
   ]
 }
