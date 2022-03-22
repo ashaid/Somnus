@@ -18,16 +18,16 @@ export default class Banner extends React.Component<IBannerProps> {
         <ParallaxBanner
           layers={[
             {
-              image: require("../media/banner/default-bg.png"),
-              speed: 0,
+              image: require("../media/banner/sky.png"),
+              speed: -5,
             },
 
             {
-              image: require("../media/banner/sky.png"),
-              speed: -20,
+              image: require("../media/banner/clouds.png"),
+              speed: -10,
             },
             {
-              speed: -60,
+              speed: -15,
               expanded: false,
               children: (
                 <div
@@ -58,16 +58,12 @@ export default class Banner extends React.Component<IBannerProps> {
               ),
             },
             {
-              image: require("../media/banner/edge-background.png"),
-              speed: -10,
-            },
-            {
-              image: require("../media/banner/kid.png"),
-              speed: -5,
-            },
-            {
               image: require("../media/banner/moon.png"),
               speed: -20,
+            },
+            {
+              image: require("../media/banner/char.png"),
+              speed: -25,
             },
           ]}
           style={{

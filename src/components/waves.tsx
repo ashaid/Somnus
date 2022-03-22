@@ -107,9 +107,7 @@ export default class Waves extends React.Component<IWavesProps, IWavesState> {
 
         {/* 
         //@ts-ignore */}
-        <MorphReplace width="100%" height="100%" preserveAspectRatio="none" rotation="none" duration={1800}> 
-          {/* {this.state.count % 2 === 1 ? <BG1 /> : <BG2 />} */}
-          {/* {this.state.count % 2 == 0 ? <BG1 key="bg1" /> : <BG2 key="bg2" />} */}
+        <MorphReplace width="100%" height="100%" preserveAspectRatio="none" rotation="none" duration={1750} easing={easeInQuad}> 
           {this.state.clicked ? <BG1 key="bg1" /> : <BG2 key="bg2" />}
         </MorphReplace>
       </Box>
@@ -122,7 +120,7 @@ export default class Waves extends React.Component<IWavesProps, IWavesState> {
         clicked: !state.clicked,
       }));
       // this.forceUpdate();
-    }, 1800);
+    }, 1750);
   }
   
 }

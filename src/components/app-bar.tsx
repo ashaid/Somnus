@@ -28,7 +28,7 @@ export default function ButtonAppBar() {
             fontWeight="medium"
             sx={{ flexGrow: 1 }}
           >
-            STUDIO
+            NIGHT TIME STUDIOS
           </Typography>
 
           <Button color="inherit">BLOG</Button>

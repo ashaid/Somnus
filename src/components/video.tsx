@@ -21,7 +21,7 @@ export default class Video extends React.Component<IVideoProps> {
           <CardMedia
             sx={{ height: "50vh", width: "95vh" }}
             component="iframe"
-            src="https://www.youtube.com/embed/6ML9ceuSBrY"
+            src="https://www.youtube.com/embed/_J-OaFVdTKE"
           />
         </Card>
       </Box>
