@@ -4,6 +4,9 @@ import Zzz from "../components/zzz";
 import Banner from "../components/banner";
 import Background from "../components/background";
 import Video from "../components/video";
+import Display from "../components/display";
+import Bar from "../components/bar";
+import { Box } from "@mui/system/";
 
 export interface IHomeProps {}
 
@@ -18,12 +21,14 @@ export default class Home extends React.Component<IHomeProps, IHomeState> {
 
   public render() {
     return (
-      <div className="App">
+      <Box className="App" flex={1} sx={{ width: "100vi" }}>
         <ButtonAppBar />
         <Banner />
+
         <Background />
-        {/* <Zzz /> */}
-      </div>
+        {/* <Bar /> */}
+        <Display />
+      </Box>
     );
   }
 }

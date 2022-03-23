@@ -1,18 +1,20 @@
 import * as React from "react";
 import { ParallaxBanner } from "react-scroll-parallax";
 import Typography from "@mui/material/Typography";
+import { Box } from "@mui/system/";
 
 export interface IBannerProps {}
 
 export default class Banner extends React.Component<IBannerProps> {
   public render() {
     return (
-      <div
+      <Box
         className="parallax-banner"
         style={{
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+          width: "100%",
         }}
       >
         <ParallaxBanner
@@ -73,7 +75,7 @@ export default class Banner extends React.Component<IBannerProps> {
             alignItems: "center",
           }}
         ></ParallaxBanner>
-      </div>
+      </Box>
     );
   }
 }

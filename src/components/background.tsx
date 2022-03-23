@@ -15,17 +15,13 @@ export default class Background extends React.Component<IBackgroundProps> {
         flex={1}
         sx={{
           height: "100vh",
-          // width: "300vh",
-          margin: 0,
-          padding: 0,
-          // backgroundImage: `url(${Image})`,
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-          display: "flex",
           justifyContent: "center",
           alignItems: "center",
           flexDirection: "column",
+          margin: 0,
+          padding: 0,
+
+          display: "flex",
         }}
       >
         <Waves />
