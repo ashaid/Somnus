@@ -25,7 +25,7 @@ export default class Banner extends React.Component<IBannerProps> {
 
             {
               image: require("../media/banner/clouds.png"),
-              speed: -10,
+              speed: -7,
             },
             {
               speed: -15,
@@ -63,7 +63,7 @@ export default class Banner extends React.Component<IBannerProps> {
               speed: -20,
             },
             {
-              image: require("../media/banner/char.png"),
+              image: require("../media/banner/Untitled_Artwork.png"),
               speed: -25,
             },
           ]}
