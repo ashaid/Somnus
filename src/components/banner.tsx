@@ -14,7 +14,6 @@ export default class Banner extends React.Component<IBannerProps> {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          width: "100%",
         }}
       >
         <ParallaxBanner

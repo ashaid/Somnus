@@ -21,12 +21,16 @@ export default class Home extends React.Component<IHomeProps, IHomeState> {
 
   public render() {
     return (
-      <Box className="App" flex={1} sx={{ width: "100vi" }}>
+      <Box
+        className="App"
+        flex={1}
+        sx={{ width: "100vi", backgroundColor: "#272727" }}
+      >
         <ButtonAppBar />
         <Banner />
 
         <Background />
-        {/* <Bar /> */}
+        <Bar />
         <Display />
       </Box>
     );
