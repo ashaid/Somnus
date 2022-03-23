@@ -1,17 +1,16 @@
 {
   "files": {
     "main.css": "/art_4059/static/css/main.1899b611.css",
-    "main.js": "/art_4059/static/js/main.83738cad.js",
+    "main.js": "/art_4059/static/js/main.eb528d5a.js",
     "static/js/947.7b0f2611.chunk.js": "/art_4059/static/js/947.7b0f2611.chunk.js",
-    "static/media/default-bg.png": "/art_4059/static/media/default-bg.1749dc9e49e403c430ab.png",
-    "static/media/sky.png": "/art_4059/static/media/sky.c265c045cc08b4a1162e.png",
-    "static/media/edge-background.png": "/art_4059/static/media/edge-background.4f32900ac28be0957cf5.png",
-    "static/media/kid.png": "/art_4059/static/media/kid.62e6c00a5a4917cf793e.png",
+    "static/media/clouds.png": "/art_4059/static/media/clouds.b27dd2d02f0878f5d479.png",
+    "static/media/sky.png": "/art_4059/static/media/sky.dd0428f0aba63529f0a6.png",
     "static/media/roboto-all-500-normal.woff": "/art_4059/static/media/roboto-all-500-normal.52cb737b682eb9661ee1.woff",
     "static/media/roboto-all-700-normal.woff": "/art_4059/static/media/roboto-all-700-normal.ef6d1d09b20b877fee4e.woff",
     "static/media/roboto-all-400-normal.woff": "/art_4059/static/media/roboto-all-400-normal.376ea5d93f71583052f6.woff",
     "static/media/roboto-all-300-normal.woff": "/art_4059/static/media/roboto-all-300-normal.8fc5f5f22c9951113696.woff",
-    "static/media/moon.png": "/art_4059/static/media/moon.a6e36728bea5ed9fc6eb.png",
+    "static/media/Untitled_Artwork.png": "/art_4059/static/media/Untitled_Artwork.4b56ac4d0ccbaa815d80.png",
+    "static/media/moon.png": "/art_4059/static/media/moon.d3d018e80a97b061c97a.png",
     "static/media/roboto-latin-500-normal.woff2": "/art_4059/static/media/roboto-latin-500-normal.869888415d0b1a99ae5c.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/art_4059/static/media/roboto-latin-700-normal.0682ca7f74351d42bf73.woff2",
     "static/media/roboto-latin-300-normal.woff2": "/art_4059/static/media/roboto-latin-300-normal.0109a2ace896a506a0aa.woff2",
@@ -45,11 +44,11 @@
     "static/media/nintendo-switch-svgrepo-com.svg": "/art_4059/static/media/nintendo-switch-svgrepo-com.5ec2f4a3720cca10e52aed1e5c9f9067.svg",
     "index.html": "/art_4059/index.html",
     "main.1899b611.css.map": "/art_4059/static/css/main.1899b611.css.map",
-    "main.83738cad.js.map": "/art_4059/static/js/main.83738cad.js.map",
+    "main.eb528d5a.js.map": "/art_4059/static/js/main.eb528d5a.js.map",
     "947.7b0f2611.chunk.js.map": "/art_4059/static/js/947.7b0f2611.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1899b611.css",
-    "static/js/main.83738cad.js"
+    "static/js/main.eb528d5a.js"
   ]
 }
