@@ -19,13 +19,13 @@ export default class Banner extends React.Component<IBannerProps> {
         <ParallaxBanner
           layers={[
             {
-              image: require("../media/banner/sky.png"),
+              image: require("../media/banner/skyy.png"),
               speed: -5,
             },
 
             {
-              image: require("../media/banner/clouds.png"),
-              speed: -7,
+              image: require("../media/banner/bg1.png"),
+              speed: -18,
             },
             {
               speed: -15,
@@ -44,7 +44,7 @@ export default class Banner extends React.Component<IBannerProps> {
                   <Typography
                     variant="h1"
                     fontWeight="bold"
-                    fontFamily="roboto"
+                    fontFamily="Black Grounds"
                     component="div"
                     color="white"
                     sx={{
@@ -53,17 +53,17 @@ export default class Banner extends React.Component<IBannerProps> {
                       // color: "",
                     }}
                   >
-                    SOMNUS
+                    Somnus
                   </Typography>
                 </div>
               ),
             },
             {
-              image: require("../media/banner/moon.png"),
+              image: require("../media/banner/bg2.png"),
               speed: -20,
             },
             {
-              image: require("../media/banner/Untitled_Artwork.png"),
+              image: require("../media/banner/person.png"),
               speed: -25,
             },
           ]}
