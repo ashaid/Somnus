@@ -9,6 +9,10 @@ import { ReactComponent as Nintendo } from "../media/icons/nintendo-switch-svgre
 
 export interface IGameButtonsProps {}
 
+interface StyleSheet {
+  [key: string]: React.CSSProperties;
+}
+
 export default class GameButtons extends React.Component<IGameButtonsProps> {
   public render() {
     return (
@@ -23,18 +27,26 @@ export default class GameButtons extends React.Component<IGameButtonsProps> {
         <ButtonGroup
           variant="contained"
           orientation="vertical"
+          // style={styles.color}
           sx={{ width: "18em" }}
           size="large"
-          disableElevation
+          // disableElevation
+          color="secondary"
         >
           <Button
             sx={{ margin: "1vh", height: "3em" }}
+            // sx={styles.button}
+            // @ts-ignore
+
             startIcon={<DesktopWindowsIcon />}
           >
             WINDOWS
           </Button>
           <Button
-            sx={{ margin: "1vh", height: "3em" }}
+            sx={{
+              margin: "1vh",
+              height: "3em",
+            }}
             startIcon={<Playstation />}
           >
             PLAYSTATION 5
@@ -46,6 +58,7 @@ export default class GameButtons extends React.Component<IGameButtonsProps> {
           sx={{ width: "18em" }}
           size="large"
           disableElevation
+          color="secondary"
         >
           <Button
             sx={{ margin: "1vh", height: "3em" }}
@@ -61,3 +74,5 @@ export default class GameButtons extends React.Component<IGameButtonsProps> {
     );
   }
 }
+
+const styles: StyleSheet = {};

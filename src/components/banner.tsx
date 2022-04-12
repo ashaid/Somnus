@@ -23,7 +23,8 @@ export default class Banner extends React.Component<IBannerProps> {
               speed: -50,
               translateY: [0, 60],
               // expanded: false,
-              scale: [1, 1],
+              // shouldAlwaysCompleteAnimation: true,
+              scale: [1, 1, "easeOutCubic"],
             },
             {
               speed: -60,
@@ -59,19 +60,22 @@ export default class Banner extends React.Component<IBannerProps> {
             {
               image: require("../media/banner/bg1.png"),
               speed: -32,
+              // shouldAlwaysCompleteAnimation: true,
             },
 
             {
               image: require("../media/banner/bg2.png"),
-              speed: -17,
+              speed: -6,
+              // shouldAlwaysCompleteAnimation: true,
               // translateY: [-20, 0],
             },
             {
               image: require("../media/banner/person.png"),
-              speed: -5,
-              // translateY: [100, 0],
+              speed: -2,
+              // translateY: [-20, 0],
               scale: [1, 1],
-              // expanded: false,
+              // shouldAlwaysCompleteAnimation: true,
+              expanded: true,
             },
           ]}
           style={{

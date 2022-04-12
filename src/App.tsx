@@ -15,6 +15,11 @@ function App() {
   const darkTheme = createTheme({
     palette: {
       mode: "dark",
+      // @ts-ignore
+      neutral: {
+        main: "red",
+        contrastText: "black",
+      },
     },
   });
   return (
