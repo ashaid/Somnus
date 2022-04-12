@@ -24,7 +24,7 @@ export default class Home extends React.Component<IHomeProps, IHomeState> {
       <Box
         className="App"
         flex={1}
-        sx={{ width: "100vi", backgroundColor: "#272727" }}
+        sx={{ width: "100vi", backgroundColor: "#1f2033" }}
       >
         <ButtonAppBar />
         <Banner />

@@ -35,9 +35,6 @@ export default class GameButtons extends React.Component<IGameButtonsProps> {
         >
           <Button
             sx={{ margin: "1vh", height: "3em" }}
-            // sx={styles.button}
-            // @ts-ignore
-
             startIcon={<DesktopWindowsIcon />}
           >
             WINDOWS
