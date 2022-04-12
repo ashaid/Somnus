@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/art_4059/static/css/main.1899b611.css",
-    "main.js": "/art_4059/static/js/main.eb528d5a.js",
+    "main.css": "/art_4059/static/css/main.0b5ca667.css",
+    "main.js": "/art_4059/static/js/main.3597e587.js",
     "static/js/947.7b0f2611.chunk.js": "/art_4059/static/js/947.7b0f2611.chunk.js",
-    "static/media/clouds.png": "/art_4059/static/media/clouds.b27dd2d02f0878f5d479.png",
-    "static/media/sky.png": "/art_4059/static/media/sky.dd0428f0aba63529f0a6.png",
+    "static/media/skyy.png": "/art_4059/static/media/skyy.b707989daf843c8b1404.png",
+    "static/media/bg2.png": "/art_4059/static/media/bg2.82f82775f092105335ea.png",
+    "static/media/bg1.png": "/art_4059/static/media/bg1.c7769175b3ef6691a96c.png",
+    "static/media/Black Grounds DEMO.ttf": "/art_4059/static/media/Black Grounds DEMO.d916aeaca12ea8163f07.ttf",
+    "static/media/person.png": "/art_4059/static/media/person.a1d96bdfcb23f99c10ec.png",
     "static/media/roboto-all-500-normal.woff": "/art_4059/static/media/roboto-all-500-normal.52cb737b682eb9661ee1.woff",
     "static/media/roboto-all-700-normal.woff": "/art_4059/static/media/roboto-all-700-normal.ef6d1d09b20b877fee4e.woff",
     "static/media/roboto-all-400-normal.woff": "/art_4059/static/media/roboto-all-400-normal.376ea5d93f71583052f6.woff",
     "static/media/roboto-all-300-normal.woff": "/art_4059/static/media/roboto-all-300-normal.8fc5f5f22c9951113696.woff",
-    "static/media/Untitled_Artwork.png": "/art_4059/static/media/Untitled_Artwork.4b56ac4d0ccbaa815d80.png",
-    "static/media/moon.png": "/art_4059/static/media/moon.d3d018e80a97b061c97a.png",
     "static/media/roboto-latin-500-normal.woff2": "/art_4059/static/media/roboto-latin-500-normal.869888415d0b1a99ae5c.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/art_4059/static/media/roboto-latin-700-normal.0682ca7f74351d42bf73.woff2",
     "static/media/roboto-latin-300-normal.woff2": "/art_4059/static/media/roboto-latin-300-normal.0109a2ace896a506a0aa.woff2",
@@ -43,12 +44,12 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/art_4059/static/media/roboto-greek-ext-700-normal.9674bc0ae12c2551d9d1.woff2",
     "static/media/nintendo-switch-svgrepo-com.svg": "/art_4059/static/media/nintendo-switch-svgrepo-com.5ec2f4a3720cca10e52aed1e5c9f9067.svg",
     "index.html": "/art_4059/index.html",
-    "main.1899b611.css.map": "/art_4059/static/css/main.1899b611.css.map",
-    "main.eb528d5a.js.map": "/art_4059/static/js/main.eb528d5a.js.map",
+    "main.0b5ca667.css.map": "/art_4059/static/css/main.0b5ca667.css.map",
+    "main.3597e587.js.map": "/art_4059/static/js/main.3597e587.js.map",
     "947.7b0f2611.chunk.js.map": "/art_4059/static/js/947.7b0f2611.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1899b611.css",
-    "static/js/main.eb528d5a.js"
+    "static/css/main.0b5ca667.css",
+    "static/js/main.3597e587.js"
   ]
 }
