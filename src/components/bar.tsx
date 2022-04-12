@@ -17,7 +17,7 @@ export default class Bar extends React.Component<IBarProps> {
             justifyContent: "center",
             alignItems: "center",
             flexDirection: "column",
-            backgroundColor: "#272727",
+            backgroundColor: "#1F2033",
             // backgroundColor: "red",
           }}
         ></Box>

@@ -10,7 +10,7 @@ import LocalHotelIcon from "@mui/icons-material/LocalHotel";
 export default function ButtonAppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="static" sx={{ background: "#1F2033" }}>
         <Toolbar>
           <IconButton
             size="large"
