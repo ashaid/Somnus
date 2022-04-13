@@ -1,13 +1,17 @@
 {
   "files": {
     "main.css": "/art_4059/static/css/main.0b5ca667.css",
-    "main.js": "/art_4059/static/js/main.3597e587.js",
+    "main.js": "/art_4059/static/js/main.6f18079b.js",
     "static/js/947.7b0f2611.chunk.js": "/art_4059/static/js/947.7b0f2611.chunk.js",
     "static/media/skyy.png": "/art_4059/static/media/skyy.b707989daf843c8b1404.png",
     "static/media/bg2.png": "/art_4059/static/media/bg2.82f82775f092105335ea.png",
     "static/media/bg1.png": "/art_4059/static/media/bg1.c7769175b3ef6691a96c.png",
+    "static/media/closed.png": "/art_4059/static/media/closed.9d1b095ab1c71d6d8d27.png",
+    "static/media/closing.png": "/art_4059/static/media/closing.fce70cd4dfe51f5378b8.png",
+    "static/media/squinting.png": "/art_4059/static/media/squinting.b5111dc31fd9a1c3eabb.png",
     "static/media/Black Grounds DEMO.ttf": "/art_4059/static/media/Black Grounds DEMO.d916aeaca12ea8163f07.ttf",
     "static/media/person.png": "/art_4059/static/media/person.a1d96bdfcb23f99c10ec.png",
+    "static/media/open.png": "/art_4059/static/media/open.2c908f544310841d7571.png",
     "static/media/roboto-all-500-normal.woff": "/art_4059/static/media/roboto-all-500-normal.52cb737b682eb9661ee1.woff",
     "static/media/roboto-all-700-normal.woff": "/art_4059/static/media/roboto-all-700-normal.ef6d1d09b20b877fee4e.woff",
     "static/media/roboto-all-400-normal.woff": "/art_4059/static/media/roboto-all-400-normal.376ea5d93f71583052f6.woff",
@@ -45,11 +49,11 @@
     "static/media/nintendo-switch-svgrepo-com.svg": "/art_4059/static/media/nintendo-switch-svgrepo-com.5ec2f4a3720cca10e52aed1e5c9f9067.svg",
     "index.html": "/art_4059/index.html",
     "main.0b5ca667.css.map": "/art_4059/static/css/main.0b5ca667.css.map",
-    "main.3597e587.js.map": "/art_4059/static/js/main.3597e587.js.map",
+    "main.6f18079b.js.map": "/art_4059/static/js/main.6f18079b.js.map",
     "947.7b0f2611.chunk.js.map": "/art_4059/static/js/947.7b0f2611.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b5ca667.css",
-    "static/js/main.3597e587.js"
+    "static/js/main.6f18079b.js"
   ]
 }
