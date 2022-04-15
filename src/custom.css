@@ -1,5 +1,13 @@
-@font-face {
-  font-family: "Black Grounds";
-  src: local("Black Grounds"),
-    url("./fonts/Black Grounds Demo.ttff") format("tryetype");
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }

@@ -18,8 +18,9 @@ export function Info(props: IInfoProps) {
   const [progress, setProgress] = React.useState<number>(0);
   const [imageSrc, setImageSrc] = React.useState(eyeImages.openEye);
   const { ref } = useParallax<HTMLDivElement>({
-    speed: 5,
+    speed: 20,
     onProgressChange: (progress) => setProgress(progress),
+    easing: "easeInOutBack",
   });
 
   useEffect(() => {
@@ -45,35 +46,52 @@ export function Info(props: IInfoProps) {
         height: "100vh",
         width: "100%",
       }}
+      ref={ref}
     >
-      <div ref={ref}>
-        <Box
-          component="img"
-          sx={{
-            position: "absolute",
-            width: "50vh",
-            left: "30vw",
-          }}
-          src={imageSrc}
-          key={imageSrc}
-        />
-      </div>
-      <Box>
-        <Typography
-          variant="h1"
-          fontWeight="bold"
-          fontFamily="roboto"
-          component="div"
-          color="white"
-          sx={{
-            textAlign: "center",
-            justifyContent: "center",
-            display: "flex",
-            position: "relative",
-          }}
-        >
-          Demo Text
-        </Typography>
+      <Box
+        className="row dev-border"
+        flex={1}
+        sx={{ flexDirection: "row-reverse" }}
+      >
+        <Box className="column">
+          <Typography
+            variant="h1"
+            fontWeight="bold"
+            fontFamily="roboto"
+            component="div"
+            color="white"
+          >
+            What is Somnus?
+            <Typography
+              variant="body1"
+              fontFamily="roboto"
+              component="div"
+              color="white"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Pellentesque interdum sem metus, sit amet dictum nibh vestibulum
+              ac. Fusce non tellus blandit, iaculis enim sed, porttitor tellus.
+              In pellentesque diam ac turpis maximus, id semper massa euismod.
+              Nulla mollis mi vitae consectetur accumsan. Aenean hendrerit lacus
+              in est ultricies efficitur. Donec id odio ut elit auctor tincidunt
+              at at tellus. Nulla venenatis nulla in lorem euismod, ut ultrices
+              dui gravida. Aliquam maximus, velit nec ultrices efficitur, arcu
+              nulla viverra erat, in laoreet est magna id leo.
+            </Typography>
+          </Typography>
+        </Box>
+
+        <Box className="column center">
+          <Box
+            component="img"
+            sx={{
+              width: "40vh",
+              position: "absolute",
+            }}
+            src={imageSrc}
+            key={imageSrc}
+          />
+        </Box>
       </Box>
     </Box>
   );
