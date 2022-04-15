@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/art_4059/static/css/main.0b5ca667.css",
-    "main.js": "/art_4059/static/js/main.6f18079b.js",
+    "main.css": "/art_4059/static/css/main.0d037d7d.css",
+    "main.js": "/art_4059/static/js/main.37281c2d.js",
     "static/js/947.7b0f2611.chunk.js": "/art_4059/static/js/947.7b0f2611.chunk.js",
     "static/media/skyy.png": "/art_4059/static/media/skyy.b707989daf843c8b1404.png",
     "static/media/bg2.png": "/art_4059/static/media/bg2.82f82775f092105335ea.png",
@@ -16,6 +16,8 @@
     "static/media/roboto-all-700-normal.woff": "/art_4059/static/media/roboto-all-700-normal.ef6d1d09b20b877fee4e.woff",
     "static/media/roboto-all-400-normal.woff": "/art_4059/static/media/roboto-all-400-normal.376ea5d93f71583052f6.woff",
     "static/media/roboto-all-300-normal.woff": "/art_4059/static/media/roboto-all-300-normal.8fc5f5f22c9951113696.woff",
+    "static/media/screenshot2.png": "/art_4059/static/media/screenshot2.725cd9119e0ba089fcf5.png",
+    "static/media/screenshot.png": "/art_4059/static/media/screenshot.87237d44b0a464ccefab.png",
     "static/media/roboto-latin-500-normal.woff2": "/art_4059/static/media/roboto-latin-500-normal.869888415d0b1a99ae5c.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/art_4059/static/media/roboto-latin-700-normal.0682ca7f74351d42bf73.woff2",
     "static/media/roboto-latin-300-normal.woff2": "/art_4059/static/media/roboto-latin-300-normal.0109a2ace896a506a0aa.woff2",
@@ -48,12 +50,12 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/art_4059/static/media/roboto-greek-ext-700-normal.9674bc0ae12c2551d9d1.woff2",
     "static/media/nintendo-switch-svgrepo-com.svg": "/art_4059/static/media/nintendo-switch-svgrepo-com.5ec2f4a3720cca10e52aed1e5c9f9067.svg",
     "index.html": "/art_4059/index.html",
-    "main.0b5ca667.css.map": "/art_4059/static/css/main.0b5ca667.css.map",
-    "main.6f18079b.js.map": "/art_4059/static/js/main.6f18079b.js.map",
+    "main.0d037d7d.css.map": "/art_4059/static/css/main.0d037d7d.css.map",
+    "main.37281c2d.js.map": "/art_4059/static/js/main.37281c2d.js.map",
     "947.7b0f2611.chunk.js.map": "/art_4059/static/js/947.7b0f2611.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b5ca667.css",
-    "static/js/main.6f18079b.js"
+    "static/css/main.0d037d7d.css",
+    "static/js/main.37281c2d.js"
   ]
 }
