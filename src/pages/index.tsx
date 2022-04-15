@@ -35,8 +35,8 @@ export default class Home extends React.Component<IHomeProps, IHomeState> {
         <Box
           sx={{
             display: "flex",
-            height: "50vh",
-            width: "100%",
+            // height: "20vh",
+            // width: "100%",
           }}
         ></Box>
       </Box>

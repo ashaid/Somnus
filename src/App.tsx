@@ -28,7 +28,6 @@ function App() {
         <ThemeProvider theme={darkTheme}>
           <Routes>
             <Route path="/" element={<Home />}></Route>
-            {/* // <Route index element={<Home />}></Route> */}
           </Routes>
         </ThemeProvider>
       </ParallaxProvider>

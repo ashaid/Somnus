@@ -8,20 +8,6 @@ export interface IDisplayProps {}
 
 export default class Display extends React.Component<IDisplayProps> {
   public render() {
-    return (
-      // <Box
-      //   flex={1}
-      //   sx={{
-      //     display: "flex",
-      //     alignItems: "stretch",
-      //     position: "absolute",
-      //     height: "100vh",
-      //     width: "100%",
-      //     backgroundSize: "cover",
-      //   }}
-      // >
-      <Info></Info>
-      // </Box>
-    );
+    return <Info></Info>;
   }
 }

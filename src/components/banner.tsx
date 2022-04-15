@@ -22,7 +22,7 @@ export default class Banner extends React.Component<IBannerProps> {
               image: require("../media/banner/skyy.png"),
               speed: -50,
               translateY: [0, 60],
-              opacity: [1, 0.1],
+              opacity: [1, 0.01],
               // expanded: false,
               // shouldAlwaysCompleteAnimation: true,
               scale: [1, 1, "easeOutCubic"],
