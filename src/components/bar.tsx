@@ -8,7 +8,7 @@ export interface IBarProps {}
 export default class Bar extends React.Component<IBarProps> {
   public render() {
     return (
-      <Parallax speed={-3} style={{ background: "blue" }}>
+      <Parallax speed={0} style={{ background: "blue" }}>
         <Box
           flex={1}
           sx={{

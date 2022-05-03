@@ -5,6 +5,7 @@ import Typography from "@mui/material/Typography";
 import { useParallax } from "react-scroll-parallax";
 import Screenshot from "../media/images/screenshot.png";
 import Screenshot2 from "../media/images/screenshot2.png";
+import myProPic from "../media/headshots/myProPic.jpg"
 
 const openEye = require("../media/chars/open.png");
 const closingEye = require("../media/chars/closing.png");
@@ -43,7 +44,7 @@ export function Info(props: IInfoProps) {
     <Box
       sx={{
         margin: "5%",
-        height: "100vh",
+        height: "150vh",
       }}
       ref={ref}
     >
@@ -141,8 +142,21 @@ export function Info(props: IInfoProps) {
           >
             About NITE TIME Studios
           </Typography>
-          <Box component="img" className="center " src={Screenshot2} />
+
         </Box>
+        <Box className="row 6 center" sx={{height: "20%vh"}}>     
+        <Box className="column"><Box component="img" sx={{padding: 5}}  src={myProPic} />  <Typography
+            variant="h3"
+            fontFamily="roboto"
+            component="div"
+            color="white"
+          >
+            Joe Biden
+          </Typography></Box>     
+        <Box className="column"><Box component="img" sx={{padding: 5}} src={myProPic} /> Joe Biden</Box>   
+        <Box className="column"><Box component="img" sx={{padding: 5}} src={myProPic} /> Joe Biden</Box>   
+        <Box className="column"><Box component="img" sx={{padding: 5}} src={myProPic} /> Joe Biden</Box>   
+          </Box>
       </Box>
     </Box>
   );

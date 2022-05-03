@@ -18,13 +18,16 @@ export default class Home extends React.Component<IHomeProps, IHomeState> {
 
     this.state = {};
   }
-
   public render() {
     return (
       <Box
         className="App"
         flex={1}
-        sx={{ width: "100vi", backgroundColor: "#1f2033" }}
+        sx={{ width: "100vi", 
+
+        background: "linear-gradient(to bottom, #1F2033 71%, #313248 100%)"
+
+      }}
       >
         <ButtonAppBar />
         <Banner />
@@ -32,13 +35,13 @@ export default class Home extends React.Component<IHomeProps, IHomeState> {
         <Background />
         <Bar />
         <Display />
-        <Box
+        {/* <Box
           sx={{
             display: "flex",
             // height: "20vh",
             // width: "100%",
           }}
-        ></Box>
+        ></Box> */}
       </Box>
     );
   }

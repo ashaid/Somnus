@@ -18,6 +18,11 @@ code {
     url("./media/fonts/Black\ Grounds\ DEMO.ttf") format("truetype");
 }
 
+html, body {
+  height: 100%;
+  width: 100%
+}
+
 .row {
   display: flex;
   flex-direction: row;
@@ -42,4 +47,8 @@ code {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.headshot {
+  box-shadow: 5px 5px;
 }
