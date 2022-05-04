@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/art_4059/static/css/main.b9f029f9.css",
-    "main.js": "/art_4059/static/js/main.9d1995bc.js",
+    "main.css": "/art_4059/static/css/main.fb50b039.css",
+    "main.js": "/art_4059/static/js/main.9805215b.js",
     "static/js/891.73b71bb4.chunk.js": "/art_4059/static/js/891.73b71bb4.chunk.js",
     "static/media/skyy.png": "/art_4059/static/media/skyy.b707989daf843c8b1404.png",
     "static/media/bg2.png": "/art_4059/static/media/bg2.82f82775f092105335ea.png",
+    "static/media/hs2.jpg": "/art_4059/static/media/hs2.83856d6c08369fd21d96.jpg",
     "static/media/bg1.png": "/art_4059/static/media/bg1.c7769175b3ef6691a96c.png",
     "static/media/closed.png": "/art_4059/static/media/closed.9d1b095ab1c71d6d8d27.png",
     "static/media/closing.png": "/art_4059/static/media/closing.fce70cd4dfe51f5378b8.png",
     "static/media/squinting.png": "/art_4059/static/media/squinting.b5111dc31fd9a1c3eabb.png",
+    "static/media/hs.jpg": "/art_4059/static/media/hs.8520eafaa8eb3c68f520.jpg",
     "static/media/Black Grounds DEMO.ttf": "/art_4059/static/media/Black Grounds DEMO.d916aeaca12ea8163f07.ttf",
     "static/media/person.png": "/art_4059/static/media/person.a1d96bdfcb23f99c10ec.png",
     "static/media/open.png": "/art_4059/static/media/open.2c908f544310841d7571.png",
+    "static/media/tony-hs.jpg": "/art_4059/static/media/tony-hs.c665f115f5d036b32ced.jpg",
     "static/media/roboto-all-500-normal.woff": "/art_4059/static/media/roboto-all-500-normal.52cb737b682eb9661ee1.woff",
     "static/media/roboto-all-700-normal.woff": "/art_4059/static/media/roboto-all-700-normal.ef6d1d09b20b877fee4e.woff",
     "static/media/roboto-all-400-normal.woff": "/art_4059/static/media/roboto-all-400-normal.376ea5d93f71583052f6.woff",
     "static/media/roboto-all-300-normal.woff": "/art_4059/static/media/roboto-all-300-normal.8fc5f5f22c9951113696.woff",
-    "static/media/myProPic.jpg": "/art_4059/static/media/myProPic.5197d690c74c2caff5c8.jpg",
-    "static/media/screenshot.png": "/art_4059/static/media/screenshot.87237d44b0a464ccefab.png",
+    "static/media/DreamForest.png": "/art_4059/static/media/DreamForest.e60cf08db751aa90fe8f.png",
+    "static/media/greenForest.png": "/art_4059/static/media/greenForest.9201445c0683fd579661.png",
+    "static/media/hs3.jpeg": "/art_4059/static/media/hs3.405abe4df0fe2956ac92.jpeg",
     "static/media/roboto-latin-500-normal.woff2": "/art_4059/static/media/roboto-latin-500-normal.869888415d0b1a99ae5c.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/art_4059/static/media/roboto-latin-700-normal.0682ca7f74351d42bf73.woff2",
     "static/media/roboto-latin-300-normal.woff2": "/art_4059/static/media/roboto-latin-300-normal.0109a2ace896a506a0aa.woff2",
@@ -50,12 +54,12 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/art_4059/static/media/roboto-greek-ext-700-normal.9674bc0ae12c2551d9d1.woff2",
     "static/media/nintendo-switch-svgrepo-com.svg": "/art_4059/static/media/nintendo-switch-svgrepo-com.5ec2f4a3720cca10e52aed1e5c9f9067.svg",
     "index.html": "/art_4059/index.html",
-    "main.b9f029f9.css.map": "/art_4059/static/css/main.b9f029f9.css.map",
-    "main.9d1995bc.js.map": "/art_4059/static/js/main.9d1995bc.js.map",
+    "main.fb50b039.css.map": "/art_4059/static/css/main.fb50b039.css.map",
+    "main.9805215b.js.map": "/art_4059/static/js/main.9805215b.js.map",
     "891.73b71bb4.chunk.js.map": "/art_4059/static/js/891.73b71bb4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9f029f9.css",
-    "static/js/main.9d1995bc.js"
+    "static/css/main.fb50b039.css",
+    "static/js/main.9805215b.js"
   ]
 }
