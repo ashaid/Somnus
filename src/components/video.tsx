@@ -14,14 +14,13 @@ export default class Video extends React.Component<IVideoProps> {
           alignItems: "center",
           justifyContent: "center",
           position: "relative",
-        }}
-      >
+        }}>
         {/* <iframe src="https://www.youtube.com/embed/6ML9ceuSBrY"></iframe> */}
         <Card sx={{}}>
           <CardMedia
             sx={{ height: "50vh", width: "95vh" }}
             component="iframe"
-            src="https://www.youtube.com/embed/_J-OaFVdTKE"
+            src="https://www.youtube.com/embed/NPhVFIcviZI"
           />
         </Card>
       </Box>
