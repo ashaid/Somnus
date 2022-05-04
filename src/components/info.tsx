@@ -38,31 +38,32 @@ export function Info(props: IInfoProps) {
 
   const { ref } = useParallax<HTMLDivElement>({
     speed: 20,
-    onProgressChange: (progress) => setProgress(progress),
+    onProgressChange: (progress) =>
+      setProgress(Math.round((progress + Number.EPSILON) * 100) / 100),
     easing: "easeOutQuint",
     opacity: [0.01, 1],
   });
 
   useEffect(() => {
     console.log(progress);
-    console.log(blurAmount);
     console.log(imageIndex);
-
     if (progress < 0.5) {
       setImageSrc(eyeImages.openEye);
       setBlurAmount(10);
     } else if (progress > 0.5 && progress < 0.7) {
       setImageSrc(eyeImages.closingEye);
     } else if (progress > 0.7 && progress < 0.87) {
-      setImageIndex(0);
       setImageSrc(eyeImages.squintingEye);
     } else if (progress > 0.87) {
       setImageSrc(eyeImages.closedEye);
     }
+    if (progress > 0.88) {
+      setImageIndex(1);
+    } else {
+      setImageIndex(0);
+    }
     if (progress > 0.9 && progress < 0.92) {
       setBlurAmount(5);
-      setImageIndex(1);
-    } else if (progress > 0.92 && progress < 0.94) {
     } else if (progress > 0.94) {
       setBlurAmount(0);
     }
@@ -74,7 +75,7 @@ export function Info(props: IInfoProps) {
         margin: "10%",
       }}
       ref={ref}>
-      <Box className="row " sx={{ flexDirection: "row-reverse" }}>
+      <Box className="row 1" sx={{ flexDirection: "row-reverse" }}>
         <Box className="column" sx={{ flex: 2 }}>
           <Typography
             variant="h1"
@@ -88,8 +89,8 @@ export function Info(props: IInfoProps) {
               fontFamily="roboto"
               component="div"
               color="white">
-              Somnus consists of three seperate parts: Game Demo, Promotional
-              Website, and Game Trailer. Somus is the latin word for the state
+              Somnus consists of three separate parts: Game Demo, Promotional
+              Website, and Game Trailer. Somnus is the latin word for the state
               of strong desire for sleep or dowsiness.
             </Typography>
           </Typography>
@@ -107,8 +108,8 @@ export function Info(props: IInfoProps) {
           />
         </Box>
       </Box>
-      <Box className="row 2 " sx={{ height: "20%" }} />
-      <Box className="row 3">
+
+      <Box className="row 2">
         <Box className="column" sx={{ flex: 2 }}>
           <Typography
             variant="h1"
@@ -128,11 +129,10 @@ export function Info(props: IInfoProps) {
             </Typography>
           </Typography>
         </Box>
-        <Box className="column center" sx={{ flexDirection: "row" }}>
+        <Box className="column center dev-border" sx={{ flexDirection: "row" }}>
           <CrossfadeImage
             src={forestImages[imageIndex]}
             style={{
-              height: "150px",
               borderRadius: "20% 0 0 20%",
             }}
             duration={1000}
@@ -140,15 +140,16 @@ export function Info(props: IInfoProps) {
           <CrossfadeImage
             src={forestImages[imageIndex]}
             style={{
-              height: "150px",
+              // height: "100%",
+              borderRadius: "0% 0 0 0%",
             }}
             duration={1000}
           />
           <CrossfadeImage
             src={forestImages[imageIndex]}
             style={{
-              height: "150px",
-              borderRadius: "0 20% 20% 0",
+              // height: "100%",
+              borderRadius: "0% 20% 20% 0%",
             }}
             duration={1000}
           />
@@ -156,7 +157,7 @@ export function Info(props: IInfoProps) {
       </Box>
       {/* <Box className="row 4" sx={{ height: "20%" }} /> */}
 
-      <Box className="row 5" sx={{ marginTop: "10%" }}>
+      <Box className="row 3" sx={{ marginTop: "10%" }}>
         <Box className="column">
           <Typography
             variant="h1"

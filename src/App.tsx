@@ -6,7 +6,11 @@ import React from "react";
 import "./App.css";
 import { Routes, Route, HashRouter } from "react-router-dom";
 import { ParallaxProvider } from "react-scroll-parallax";
-import { createTheme, ThemeProvider, responsiveFontSizes } from "@mui/material/styles";
+import {
+  createTheme,
+  ThemeProvider,
+  responsiveFontSizes,
+} from "@mui/material/styles";
 
 // @ts-ignore
 import Home from "./pages/index";
@@ -22,7 +26,7 @@ function App() {
       },
     },
   });
-  darkTheme = responsiveFontSizes(darkTheme);
+
   return (
     <HashRouter>
       <ParallaxProvider>
