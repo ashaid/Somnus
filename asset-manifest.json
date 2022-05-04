@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/art_4059/static/css/main.fb50b039.css",
-    "main.js": "/art_4059/static/js/main.9805215b.js",
+    "main.js": "/art_4059/static/js/main.9d1ba01a.js",
     "static/js/891.73b71bb4.chunk.js": "/art_4059/static/js/891.73b71bb4.chunk.js",
     "static/media/skyy.png": "/art_4059/static/media/skyy.b707989daf843c8b1404.png",
     "static/media/bg2.png": "/art_4059/static/media/bg2.82f82775f092105335ea.png",
@@ -55,11 +55,11 @@
     "static/media/nintendo-switch-svgrepo-com.svg": "/art_4059/static/media/nintendo-switch-svgrepo-com.5ec2f4a3720cca10e52aed1e5c9f9067.svg",
     "index.html": "/art_4059/index.html",
     "main.fb50b039.css.map": "/art_4059/static/css/main.fb50b039.css.map",
-    "main.9805215b.js.map": "/art_4059/static/js/main.9805215b.js.map",
+    "main.9d1ba01a.js.map": "/art_4059/static/js/main.9d1ba01a.js.map",
     "891.73b71bb4.chunk.js.map": "/art_4059/static/js/891.73b71bb4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb50b039.css",
-    "static/js/main.9805215b.js"
+    "static/js/main.9d1ba01a.js"
   ]
 }
