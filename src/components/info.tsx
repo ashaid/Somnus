@@ -59,12 +59,11 @@ export function Info(props: IInfoProps) {
     } else if (progress > 0.87) {
       setImageSrc(eyeImages.closedEye);
     }
-    if (progress > 0.92 && progress < 0.94) {
-      setBlurAmount(4);
+    if (progress > 0.9 && progress < 0.92) {
+      setBlurAmount(5);
       setImageIndex(1);
-    } else if (progress > 0.94 && progress < 0.96) {
-      setBlurAmount(3);
-    } else if (progress > 0.96) {
+    } else if (progress > 0.92 && progress < 0.94) {
+    } else if (progress > 0.94) {
       setBlurAmount(0);
     }
   });
@@ -72,7 +71,7 @@ export function Info(props: IInfoProps) {
   return (
     <Box
       sx={{
-        margin: "15%",
+        margin: "10%",
       }}
       ref={ref}>
       <Box className="row " sx={{ flexDirection: "row-reverse" }}>
@@ -125,17 +124,31 @@ export function Info(props: IInfoProps) {
               color="white">
               The gameplay of Somnus is that of a 2D side scroller made in the
               Unity Game Engine. The game features reality and dream state that
-              can be activated by using the eye charm.
+              can be activated by using the dream necklace.
             </Typography>
           </Typography>
         </Box>
-        <Box className="column center">
+        <Box className="column center" sx={{ flexDirection: "row" }}>
           <CrossfadeImage
             src={forestImages[imageIndex]}
             style={{
               height: "150px",
-              borderRadius: "20%",
-              position: "absoltue",
+              borderRadius: "20% 0 0 20%",
+            }}
+            duration={1000}
+          />
+          <CrossfadeImage
+            src={forestImages[imageIndex]}
+            style={{
+              height: "150px",
+            }}
+            duration={1000}
+          />
+          <CrossfadeImage
+            src={forestImages[imageIndex]}
+            style={{
+              height: "150px",
+              borderRadius: "0 20% 20% 0",
             }}
             duration={1000}
           />
@@ -143,7 +156,7 @@ export function Info(props: IInfoProps) {
       </Box>
       {/* <Box className="row 4" sx={{ height: "20%" }} /> */}
 
-      <Box className="row 5" sx={{ marginTop: "15%" }}>
+      <Box className="row 5" sx={{ marginTop: "10%" }}>
         <Box className="column">
           <Typography
             variant="h1"
