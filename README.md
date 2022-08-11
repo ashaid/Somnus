@@ -1,6 +1,5 @@
 # Getting Started
 View the deployment [here](https://ashaid.github.io/art_4059/).
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
