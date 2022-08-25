@@ -11,7 +11,7 @@ In the project directory, you can run:
 
 ### `pnpm install`
 
-installs needede dependencies
+installs needed dependencies
 
 ### `pnpm start`
 
